@@ -1,0 +1,479 @@
+@font-face {
+    font-family: 'louis_george_caferegular';
+    src: url('font/louis_george_cafe-webfont.woff2') format('woff2'),
+         url('font/louis_george_cafe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* { scroll-behavior: smooth; font-family: 'louis_george_caferegular';}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #1b1b1b;
+}
+
+body * {
+    color: wheat;
+}
+
+h1 { font-family: "Playfair Display", serif;}
+
+p {
+    width: 550px;
+    text-align: justify;   
+    margin: 0 auto;
+    font-size: 18px;  
+}
+
+a {text-decoration: none;}
+
+
+header {
+    position: absolute;
+    z-index: 999;
+    color: wheat;
+    background-color: unset;
+    top: 2em;
+    left: 2em;
+}
+
+header button {
+    color: wheat;    background-color: unset; 
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    border: none; 
+    font-size:28px;
+    border: 2px wheat solid;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+header button a {
+    color: wheat;      
+}
+
+
+.thisite {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 120px;
+}
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    top: -50px;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    opacity: 0; 
+    background-color: unset;
+}
+
+.navBar * {
+    list-style: none;
+}
+
+.navBar div {
+    width: 600px;
+    height: 75px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    margin-top: 1em;    
+    box-shadow: rgb(168, 150, 116) 4px 6px 2px;
+}
+
+.navList {
+    font-size: 18px;
+    font-family: 'louis_george_caferegular';
+    color: black;
+}
+
+#thissite2 {
+    border: 2px solid black; 
+    height: 50px;
+    width: 140px;
+    margin-bottom: 14px;
+    box-shadow: unset;
+    margin: 25px;
+}
+
+#thissite2:hover {
+    background-color: rgb(202, 185, 154);
+}
+
+
+footer {
+    bottom: 0em;
+    width: 100%;
+    height: 150px;
+    background-color: #1b1b1b;
+    z-index: 5000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    flex-direction: column;
+}
+
+footer h1 {
+    font-family: 'louis_george_caferegular';
+    font-size: 24px;
+}
+
+footer h2 {
+    font-family: 'louis_george_caferegular';
+    font-size: 16px;
+}
+
+body section {
+    width: 60%;
+    height: 2000px;
+    background-color: rgb(41, 41, 41);
+    margin: 0 auto;
+}
+
+body section div  {
+    position: relative;
+    width:100%;
+}
+
+#title {
+    width: 100%;
+    margin-top: 2em;
+    font-family: 'louis_george_caferegular';
+    font-size: 32pt;
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+@keyframes fade {
+    from { opacity: .3; transform: scale(.95); }
+    20% { opacity: .3; transform: scale(.95); }
+    50% { opacity: 1; transform: scale(1); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fade2 {
+    from { opacity: .3; transform: scale(.15); }
+    50% { opacity: 1; transform: scale(1); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.contextSite {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:  0 auto;
+}
+
+.contextSite * {
+    animation: fade2;
+    animation-timeline: view() ;
+}
+
+.contextSite h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-family: 'louis_george_caferegular';
+}
+
+.contextSite div {
+    height: 400px;
+}
+
+.contextSite div p {
+  margin-top: 2em;   
+}
+
+.process {
+    height: 1200px;
+}
+
+.process div h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    animation: fade;
+    animation-timeline: view() ;
+}
+
+.process div p {
+    text-align: center;
+    width: 900px;
+    animation: fade;
+    animation-timeline: view() ;
+}
+
+@keyframes fadeRight {
+    from { transform: translateX(-70px); opacity: .6; }
+    80% {  transform: translateX( 0px); opacity: 1; }
+    to {  transform: translateX( 0px); opacity: 1; }
+}
+
+@keyframes fadeLeft {
+    from { transform: translateX(70px); opacity: .6; }
+    80% {  transform: translateX( 0px); opacity: 1; }
+    to {  transform: translateX( 0px); opacity: 1; }
+}
+
+@keyframes fadeTop {
+    from { transform: translateY(100px); opacity: .6; }
+    60% {  transform: translateX( 0px); opacity: 1; }
+    to {  transform: translateX( 0px); opacity: 1; }
+}
+
+.step {
+    font-size: 28px;
+    position: absolute;
+}
+
+#step1 {
+    top: 20%;
+    left: 10%;
+    animation: fadeRight;
+    animation-timeline: view() ;
+}
+
+#step2 {
+    top :40%;
+    left: 40%;
+    animation: fadeLeft;
+    animation-timeline: view() ;
+}
+
+#step3 {
+    left: 6%;
+    bottom: 27%;
+    animation: fadeRight;
+    animation-timeline: view() ;
+}
+
+#step4 {
+    bottom: 8%;
+    right: 10%;
+    animation: fadeTop;
+    animation-timeline: view() ;
+}
+
+.step_img {
+position: absolute;
+z-index: 30;
+}
+
+.step_img img { 
+    width: 400px;
+    position: absolute;
+    z-index: 30;
+    border-radius: 40px;
+    box-shadow: rgb(0, 0, 0) 5px 0px 150px 30px;
+    opacity: .8;
+    animation: fadeTop2;
+    animation-timeline: view() ;
+}
+
+#StepIMG1 {
+    left: 2em;
+    top: -72em;
+}
+
+#StepIMG2 {
+    left: 100em;
+    top: -65em;
+    width: 360px;
+}
+
+#StepIMG3 {
+    left: 19em;
+    top: -30em;
+    width: 360px;
+    animation: fadeTop3;
+    animation-timeline: view() ;
+}
+
+#StepIMG4 {
+    left: 90em;
+    top: -22em;
+    width: 360px;
+}
+
+@keyframes fadeTop2 {
+    from { transform: translateY(200px); opacity: .2; }
+    60% {  transform: translateX( 0px); }
+    85% { transform: translateY(200px); opacity: .8; }
+    to {  transform: translateX( 0px); opacity: .8; }
+}
+
+@keyframes fadeTop3 {
+    from { transform: translateY(400px); opacity: .6; }
+    60% {  transform: translateX( 0px); opacity: .8; }
+    to {  transform: translateX( 0px); opacity: .8; }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1640px) { 
+
+    .step {
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .step_img img { 
+        width: 300px;
+    }
+
+    #StepIMG1 {
+        left: 10em;
+        top: -62em;
+        width: 350px;
+        animation: unset;
+    }
+
+    #StepIMG2 {
+        left: 60em;
+        top: -50em;
+        width: 300px;
+        animation: unset;
+    }
+    
+    #StepIMG3 {
+        left: 9em;
+        top: -30em;
+        width: 360px;
+    }
+    
+    #StepIMG4 {
+        left: 50em;
+        top: -22em;
+        width: 300px;
+        animation: unset;
+    }
+
+    #step4 {
+        bottom: 12%;
+        right: 15%;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1300px) { 
+
+    .contextSite h2 {
+        font-size: 20px;
+    }
+
+    .contextSite div p {
+        font-size: 12px;
+        width: 400px;
+    }
+
+    .contextSite div {
+        height: 220px;
+    }
+    body section {
+        width: 60%;
+        height: 1200px;
+        background-color: rgb(41, 41, 41);
+        margin: 0 auto;
+    }
+
+    .process div h2 {
+        font-size: 20px;
+    }
+
+    .process div p {
+        font-size: 12px;
+        width: 400px;
+    }
+
+    .step {
+        font-size: 10px;
+        width: 250px;
+    }
+    
+    #step1 {
+        top: 15%;
+        left: 5%;
+    }
+    
+    #step2 {
+        top: 20%;
+        right: 5%;
+    }
+    
+    #step3 {
+        top: 43%;
+        left: 8%;
+        width: 250px;
+    }
+    
+    #step4 {
+        top: 46%;
+        right: 5%;
+        width: 280px;
+    }
+
+    .step_img img { 
+        width: 2cqh;
+    }
+
+    #StepIMG1 {
+        left: 10em;
+        top: -35em;
+        width: 190px;
+        animation: unset;
+    }
+
+    #StepIMG2 {
+        left: 32em;
+        top: -31em;
+        width: 170px;
+        animation: unset;
+    }
+    
+    #StepIMG3 {
+        left: 10em;
+        top: -17em;
+        width: 180px;
+    }
+    
+    #StepIMG4 {
+        left: 35em;
+        top: -13em;
+        width: 180px;
+        animation: unset;
+    }
+
+}
+
+
+/* Page projet.html */
+
+
+main h2 {
+    width: 350px;
+    text-align: center;
+    margin: auto ;
+    margin-top: 20%;
+}
+
+main p {
+    width: unset;
+    text-align: center;   
+    margin: unset;
+    font-size: 18px;  
+    margin: auto ;
+}
+

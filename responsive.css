@@ -1,0 +1,637 @@
+/* 1366 x 768 */
+
+@media only screen and (min-width: 1641px) and (max-width: 1860px) {
+
+    .p1 {
+        width: 90%;
+    }
+
+    .contact_info {
+        right: 0em;
+    }
+
+    #form4 {
+        height: 550px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1301px) and (max-width: 1640px) {
+
+    header {
+        height: 50px; 
+    }
+
+    header img {
+    width: 150px;
+    }
+
+    header ul {
+        top: -55px;
+        gap: 0px;
+        left: 8%;
+    }
+
+    header ul li a {
+        font-size: 18px;
+    }
+   
+    .navBar div {
+        width: 500px;
+        height: 75px;
+    }
+
+    
+    #thisite2 {
+        height: 30px;
+        gap: unset;
+        width: 20px;
+        border: unset;
+    }
+
+    .navList {
+        font-size: 18px;
+    }
+
+    #aboutme {
+        font-size: 46pt;
+    }
+
+    .part1 div {
+        height: 300px;
+    }
+
+    .part1 h1 {
+        font-size: 64pt;
+    }
+
+    .part1 div h1:nth-child(2) {
+        color: #b15a6d;
+        top: 350px;
+        left: 150px;
+     }
+
+    #home_h11 {
+        top: 250px ;
+        left: 150px;
+    }
+
+    .part1 img {
+        height: 600px;
+    }
+
+    .element img {
+        height: 50px;
+    }
+    
+    .sous_p2 p {
+        font-size: 20pt;
+        width: 850px;
+        margin: 0 auto;
+    }
+
+    #pp{
+        width: 600px;
+        height: 600px;
+    }
+
+    .sous_p22 p {
+        font-size: 20px;
+        width: 400px;
+        animation: none;
+    }
+
+    .part1 div {
+        margin-left: 100px;
+    }
+
+    #icon1, #icon3, #icon4 {width: 110px;}
+    #icon2 {width: 120px;}
+
+
+    .p1 {
+        transform: scale(.9);
+        width: 85%;
+        height: 500px;
+    }
+
+    .saeBox {
+        width: 380px;
+        height: 380px;
+        left: 7em;
+        top: 2.5em;
+    }
+
+    #sae105 {
+        font-size: 26pt;
+        margin-top: 60px;
+    }
+
+    .Tools {
+        margin-top: -10px;
+    }
+
+    .Tools img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .boxInfo {
+        height: 160px;
+    }
+
+    .saeInfo {
+        transform: scale(.85);
+        top: -6.5em;
+        left: -6.7em;
+        z-index: 2;
+    }
+
+    .saeInfo div img {
+        width: auto;
+        height: 270px;
+        top: 10px;
+        position: absolute;
+    }
+    
+
+    #screen1 { 
+        left: 530px;  
+        top: 40px;
+       }
+    #screen2 { 
+        left: 120px;  
+        top: 40px;
+         }
+
+
+    #form4 {
+        height: 400px;
+        top: 300px;
+    }
+
+    #rugix1 div {
+        height: 150px;
+        width: 500px;
+    }
+
+    
+    #rugix_title img:nth-child(1) {
+        height: 120px;
+        left: 3.5em;
+        top: 7% ;
+    }
+
+    #rugix_title img:nth-child(2) {
+        width: auto;
+        height: 60px;
+        left: 11em;
+        top: 25%;
+    }
+
+    #rugix_title p {
+        width: 290px;
+        position: absolute;
+        left: 10em;
+        top: 50%;
+        font-size: 14pt;
+    }
+
+    #rugix2 {
+        width: 1100px;
+        height: 400px;
+    }
+
+    #rugix_description {
+        font-size: 16pt;
+        margin-right: 20px;
+        height: 250px;
+    }
+
+    #rugix_description h2 {
+        position: absolute;
+        font-size: 24pt;
+        top: 0.9em;
+    }
+    
+    #rugix_logo img{
+        height: 400px;
+    }
+
+
+    #step1 {background-position: -70px -15px;}
+    #step2 {background-position: 0px 0px;}
+    #step3 {background-position: 0px 0px;}
+    #step5 {background-position: -20px 0px;}
+
+    #formulaire {
+        transform: scale(.8);
+        left: 7em;
+        top: 0;
+    }
+
+    .contact_info {
+        right: -10em;
+        transform: scale(.75);
+    }
+
+    #popupform {
+        left: 20em;
+    }
+
+    #popupShadowForm {
+        left: 18.5em;
+    }
+
+    #bg2 {
+        transform: scale(.8);
+        left: -15em;
+        top: 2em;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
+    
+    header {
+        height: 70px; 
+    }
+
+    header img {
+    width: 130px;
+    }
+
+    header ul {
+        top: -50px;
+    }
+
+    header ul li a {
+        font-size: 16px;
+    }
+   
+    .navBar div {
+        width: 600px;
+        height: 65px;
+    }
+    
+    .navList {
+        font-size: 18px;
+    }
+
+    #aboutme {
+        font-size: 42pt;
+    }
+
+    .part1 h1 {
+        font-size: 50pt;
+    }
+
+    .part1 img {
+        height: 600px;
+    }
+
+    .element img {
+        height: 40px;
+    }
+    
+    .sous_p2 {
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        top: 1200px;
+    
+       display: grid;
+       grid-template-columns: 1fr 1200px 1fr;
+       grid-template-rows: 35% 1fr;
+    }
+
+    .sous_p2 p {
+        font-size: 18pt;
+    }
+
+    #pp{
+        width: 550px;
+        height: 550px;
+    }
+
+    .sous_p22 p {
+        font-size: 20px;
+        animation: none;
+    }
+
+    @keyframes scroll-reveal {
+        90% { background-size: 100% 100%; }
+        to { background-size: 100% 100%; }
+    }
+
+    .part1 div {
+        margin-left: 100px;
+    }
+
+    .p1 {
+        transform: scale(.9);
+        width: 102%;
+        height: 450px;
+    }
+
+    .saeBox {
+        width: 350px;
+        height: 350px;
+        left: 10em;
+        top: 2em;
+    }
+
+    .saeInfo {
+        transform: scale(.8);
+        top: -5em;
+    }
+
+    #form4 {
+        height: 450px;
+    }
+
+    #rugix2 {
+        width: 900px;
+    }
+
+    #rugix_description {
+        font-size: 14pt;
+        margin-right: 20px;
+    }
+    #rugix_description h2 {
+        position: absolute;
+        font-size: 20pt;
+        margin-bottom: -14px;
+        border: 2px solid black;
+        padding: 20px;
+        top: 0.6em;
+    }
+
+    #rugix_step {
+        transform: scale(.8);
+    }
+
+    #formulaire {
+        transform: scale(.8);
+        left: 0;
+        top: 0;
+    }
+
+    .contact_info {
+        right: -10em;
+        transform: scale(.8);
+    }
+
+    #popupform {
+        left: 15em;
+    }
+
+    #popupShadowForm {
+        left: 13.5em;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) { 
+    
+    header {
+        height: 50px; 
+    }
+
+    header img {
+    width: 100px;
+    }
+
+    header ul {
+        top: -60px;
+        gap: 0px;
+        left: 5%;
+    }
+
+    header ul li a {
+        font-size: 10px;
+    }
+   
+    .navBar div {
+        width: 500px;
+        height: 55px;
+    }
+
+    .thisite {
+        display: flex;
+        align-items: center;
+        border: 2px solid black;
+        width: 80px;
+        height: 30px;
+    }
+    
+    #thisite2 {
+        height: 30px;
+        gap: unset;
+        width: 20px;
+        border: unset;
+    }
+
+    .navList {
+        font-size: 14px;
+    }
+
+    #aboutme {
+        font-size: 32pt;
+    }
+
+    .part1 div {
+        height: 300px;
+    }
+
+    .part1 h1 {
+        font-size: 40pt;
+    }
+
+    .part1 div h1:nth-child(2) {
+        color: #b15a6d;
+        top: 300px;
+        left: 40px;
+     }
+
+    #home_h11 {
+        top: 250px ;
+        left: 40px;
+    }
+
+    .part1 img {
+        height: 400px;
+    }
+
+    .element img {
+        height: 30px;
+    }
+    
+    .sous_p2 {
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        top: 1200px;
+    
+       display: grid;
+       grid-template-columns: 1fr 1200px 1fr;
+       grid-template-rows: 35% 1fr;
+    }
+
+    .sous_p2 p {
+        font-size: 15pt;
+        width: 650px;
+        margin: 0 auto;
+    }
+
+    
+    #pp{
+        width: 450px;
+        height: 450px;
+    }
+
+    .sous_p22 p {
+        font-size: 16px;
+        width: 400px;
+        animation: none;
+    }
+
+    .part1 div {
+        margin-left: 100px;
+    }
+
+    #icon1 {width: 100px;}
+    #icon2 {width: 110px;}
+    #icon3 {width: 100px;}
+    #icon4 {width: 100px;}
+
+    .p1 {
+        transform: scale(.9);
+        width: 102%;
+        height: 350px;
+    }
+
+    .saeBox {
+        width: 250px;
+        height: 250px;
+        left: 8em;
+        top: 3em;
+    }
+
+    #sae105 {
+        font-size: 24pt;
+        margin-top: 70px;
+    }
+
+    .Tools {
+        margin-top: -25px;
+    }
+
+    .Tools img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .boxInfo {
+        height: 120px;
+    }
+
+    .saeInfo {
+        transform: scale(.7);
+        top: -6.5em;
+        left: -5em;
+        z-index: 2;
+    }
+
+    #form4 {
+        height: 350px;
+    }
+
+    #rugix1 div {
+        height: 120px;
+        width: 400px;
+    }
+
+    
+    #rugix_title img:nth-child(1) {
+        height: 90px;
+        left: 4em;
+        top: 5% ;
+    }
+
+    #rugix_title img:nth-child(2) {
+        width: auto;
+        height: 50px;
+        left: 11em;
+        top: 30%;
+    }
+
+    #rugix_title p {
+        width: 290px;
+        position: absolute;
+        left: 10em;
+        top: 56%;
+        font-size: 11pt;
+    }
+
+    #rugix2 {
+        width: 800px;
+        height: 300px;
+    }
+
+    #rugix_description {
+        font-size: 12pt;
+        margin-right: 20px;
+        height: 200px;
+    }
+
+    #rugix_description h2 {
+        position: absolute;
+        font-size: 16pt;
+        top: 0.6em;
+    }
+    
+    #rugix_logo img{
+        height: 300px;
+    }
+
+    #rugix_step {
+        transform: scale(.8);
+        grid-template-columns: 1fr 45% 1fr 25% 1fr 25% 1fr;
+    }
+
+    #step1 {background-position: -100px -15px;}
+    #step2 {background-position: 0px 0px;}
+    #step3 {background-position: -30px 0px;}
+    #step5 {background-position: -60px 0px;}
+
+    #formulaire {
+        transform: scale(.7);
+        left: 0em;
+        top: 0;
+    }
+
+    .contact_info {
+        right: -15em;
+        transform: scale(.6);
+    }
+
+    #popupform {
+        left: 12em;
+    }
+
+    #popupShadowForm {
+        left: 11.5em;
+    }
+
+    #bg2 {
+        transform: scale(.8);
+        left: -15em;
+        top: 2em;
+    }
+
+ }
